@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://dt5jm4756bp35"]
+
+[ext_resource type="Texture2D" uid="uid://c8mg8qy4g726i" path="res://assets/ocean.jpg" id="1_wbijh"]
+[ext_resource type="PackedScene" uid="uid://bhnude24j0047" path="res://water grass.tscn" id="2_sa028"]
+[ext_resource type="Texture2D" uid="uid://bdvwmm0nlhq6" path="res://assets/icon.svg" id="3_xi8kv"]
+[ext_resource type="Texture2D" uid="uid://b2xxbq0rep0s6" path="res://assets/shark.png" id="4_1xssy"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Pexels-matthardy-1533720" type="Sprite2D" parent="."]
+position = Vector2(-1, -10)
+texture = ExtResource("1_wbijh")
+
+[node name="ColorRect4" parent="Pexels-matthardy-1533720" instance=ExtResource("2_sa028")]
+offset_left = 2605.0
+offset_top = 613.0
+offset_right = 2761.0
+offset_bottom = 2023.0
+
+[node name="Icon" type="Sprite2D" parent="Pexels-matthardy-1533720"]
+position = Vector2(-2621, -1625)
+scale = Vector2(4.32031, 4.32031)
+texture = ExtResource("3_xi8kv")
+
+[node name="AdobeStock910110526" type="Sprite2D" parent="Pexels-matthardy-1533720"]
+position = Vector2(-1704, 479)
+texture = ExtResource("4_1xssy")
+
+[node name="ColorRect" parent="Pexels-matthardy-1533720" instance=ExtResource("2_sa028")]
+
+[node name="ColorRect2" parent="Pexels-matthardy-1533720" instance=ExtResource("2_sa028")]
+offset_left = 1617.0
+offset_top = 582.0
+offset_right = 1773.0
+offset_bottom = 1992.0
+
+[node name="ColorRect3" parent="Pexels-matthardy-1533720" instance=ExtResource("2_sa028")]
+offset_left = 2119.0
+offset_top = 616.0
+offset_right = 2275.0
+offset_bottom = 2026.0

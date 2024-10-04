@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bhnude24j0047"]
+
+[node name="ColorRect" type="ColorRect"]
+offset_left = 1074.0
+offset_top = 593.0
+offset_right = 1230.0
+offset_bottom = 2003.0
+rotation = -6.28319
+color = Color(0.354606, 0.610229, 0.279374, 1)

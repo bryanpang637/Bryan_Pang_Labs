@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bifls53fl06n3"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+offset_right = 336.0
+offset_bottom = 217.0
+text = "Hello"
